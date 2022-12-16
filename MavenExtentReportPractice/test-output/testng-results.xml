@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="9" passed="1" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-14T23:17:46 IST" name="Suite" finished-at="2022-12-14T23:18:46 IST" duration-ms="60983">
+    <groups>
+      <group name="regression">
+        <method signature="IntegrationWithTestNG.TestFaceBook()[pri:0, instance:com.test.testng.IntegrationWithTestNG@2cd76f31]" name="TestFaceBook" class="com.test.testng.IntegrationWithTestNG"/>
+        <method signature="IntegrationWithTestNG.OrangeHRM()[pri:0, instance:com.test.testng.IntegrationWithTestNG@55fe41ea]" name="OrangeHRM" class="com.test.testng.IntegrationWithTestNG"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="IntegrationWithTestNG.TestGoogle()[pri:0, instance:com.test.testng.IntegrationWithTestNG@36ebc363]" name="TestGoogle" class="com.test.testng.IntegrationWithTestNG"/>
+        <method signature="IntegrationWithTestNG.TestFaceBook()[pri:0, instance:com.test.testng.IntegrationWithTestNG@2cd76f31]" name="TestFaceBook" class="com.test.testng.IntegrationWithTestNG"/>
+        <method signature="IntegrationWithTestNG.OrangeHRM()[pri:0, instance:com.test.testng.IntegrationWithTestNG@55fe41ea]" name="OrangeHRM" class="com.test.testng.IntegrationWithTestNG"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="IntegrationWithTestNG.OrangeHRM()[pri:0, instance:com.test.testng.IntegrationWithTestNG@55fe41ea]" name="OrangeHRM" class="com.test.testng.IntegrationWithTestNG"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2022-12-14T23:17:46 IST" name="Test Google" finished-at="2022-12-14T23:18:10 IST" duration-ms="24883">
+      <class name="com.test.testng.IntegrationWithTestNG">
+        <test-method is-config="true" signature="SetUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.test.testng.IntegrationWithTestNG@36ebc363]" started-at="2022-12-14T23:17:46 IST" name="SetUp" finished-at="2022-12-14T23:17:50 IST" duration-ms="4124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@545b5ed0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="TestGoogle()[pri:0, instance:com.test.testng.IntegrationWithTestNG@36ebc363]" started-at="2022-12-14T23:17:50 IST" name="TestGoogle" finished-at="2022-12-14T23:18:10 IST" duration-ms="19974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGoogle -->
+        <test-method is-config="true" signature="CheckStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.test.testng.IntegrationWithTestNG@36ebc363]" started-at="2022-12-14T23:18:10 IST" name="CheckStatus" finished-at="2022-12-14T23:18:10 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.testng.IntegrationWithTestNG.TestGoogle() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=TestGoogle status=SUCCESS method=IntegrationWithTestNG.TestGoogle()[pri:0, instance:com.test.testng.IntegrationWithTestNG@36ebc363] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckStatus -->
+        <test-method is-config="true" signature="ScreenshotCapture(org.testng.ITestResult)[pri:0, instance:com.test.testng.IntegrationWithTestNG@36ebc363]" started-at="2022-12-14T23:18:10 IST" name="ScreenshotCapture" finished-at="2022-12-14T23:18:10 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestGoogle status=SUCCESS method=IntegrationWithTestNG.TestGoogle()[pri:0, instance:com.test.testng.IntegrationWithTestNG@36ebc363] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotCapture -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.test.testng.IntegrationWithTestNG@36ebc363]" started-at="2022-12-14T23:18:10 IST" name="teardown" finished-at="2022-12-14T23:18:10 IST" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.test.testng.IntegrationWithTestNG -->
+    </test> <!-- Test Google -->
+    <test started-at="2022-12-14T23:18:11 IST" name="Test FaceBook" finished-at="2022-12-14T23:18:30 IST" duration-ms="19070">
+      <class name="com.test.testng.IntegrationWithTestNG">
+        <test-method is-config="true" signature="SetUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.test.testng.IntegrationWithTestNG@2cd76f31]" started-at="2022-12-14T23:18:11 IST" name="SetUp" finished-at="2022-12-14T23:18:15 IST" duration-ms="4338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5a7df831]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="TestFaceBook()[pri:0, instance:com.test.testng.IntegrationWithTestNG@2cd76f31]" started-at="2022-12-14T23:18:15 IST" name="TestFaceBook" finished-at="2022-12-14T23:18:29 IST" duration-ms="13645" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Title is Missmatced expected [Log in to Facebook] but found [Facebook – log in or sign up],
+Username is Missmatced expected [wel] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Title is Missmatced expected [Log in to Facebook] but found [Facebook – log in or sign up],
+Username is Missmatced expected [wel] but found []
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at com.test.testng.IntegrationWithTestNG.TestFaceBook(IntegrationWithTestNG.java:68)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFaceBook -->
+        <test-method is-config="true" signature="CheckStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.test.testng.IntegrationWithTestNG@2cd76f31]" started-at="2022-12-14T23:18:29 IST" name="CheckStatus" finished-at="2022-12-14T23:18:29 IST" duration-ms="174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.testng.IntegrationWithTestNG.TestFaceBook() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=TestFaceBook status=FAILURE method=IntegrationWithTestNG.TestFaceBook()[pri:0, instance:com.test.testng.IntegrationWithTestNG@2cd76f31] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckStatus -->
+        <test-method is-config="true" signature="ScreenshotCapture(org.testng.ITestResult)[pri:0, instance:com.test.testng.IntegrationWithTestNG@2cd76f31]" started-at="2022-12-14T23:18:29 IST" name="ScreenshotCapture" finished-at="2022-12-14T23:18:29 IST" duration-ms="149" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestFaceBook status=FAILURE method=IntegrationWithTestNG.TestFaceBook()[pri:0, instance:com.test.testng.IntegrationWithTestNG@2cd76f31] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotCapture -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.test.testng.IntegrationWithTestNG@2cd76f31]" started-at="2022-12-14T23:18:29 IST" name="teardown" finished-at="2022-12-14T23:18:30 IST" duration-ms="754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.test.testng.IntegrationWithTestNG -->
+    </test> <!-- Test FaceBook -->
+    <test started-at="2022-12-14T23:18:30 IST" name="Test OrangeHRM " finished-at="2022-12-14T23:18:46 IST" duration-ms="16671">
+      <class name="com.test.testng.IntegrationWithTestNG">
+        <test-method is-config="true" signature="InitializeExtentReports()[pri:0, instance:com.test.testng.IntegrationWithTestNG@55fe41ea]" started-at="2022-12-14T23:17:45 IST" name="InitializeExtentReports" finished-at="2022-12-14T23:17:46 IST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeExtentReports -->
+        <test-method is-config="true" signature="SetUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.test.testng.IntegrationWithTestNG@55fe41ea]" started-at="2022-12-14T23:18:30 IST" name="SetUp" finished-at="2022-12-14T23:18:32 IST" duration-ms="2318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@667dcaad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="OrangeHRM()[pri:0, instance:com.test.testng.IntegrationWithTestNG@55fe41ea]" started-at="2022-12-14T23:18:32 IST" name="OrangeHRM" finished-at="2022-12-14T23:18:45 IST" duration-ms="12824" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: MicrosoftEdge=108.0.1462.46)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [bea9caf9291d2ff37b803aeb35f49abc, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.46, ms:edgeOptions: {debuggerAddress: localhost:58155}, msedge: {msedgedriverVersion: 108.0.1462.46 (d29728ee6817..., userDataDir: C:\Users\Hp\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58155/devtoo..., se:cdpVersion: 108.0.1462.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bea9caf9291d2ff37b803aeb35f49abc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: MicrosoftEdge=108.0.1462.46)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [bea9caf9291d2ff37b803aeb35f49abc, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.46, ms:edgeOptions: {debuggerAddress: localhost:58155}, msedge: {msedgedriverVersion: 108.0.1462.46 (d29728ee6817..., userDataDir: C:\Users\Hp\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58155/devtoo..., se:cdpVersion: 108.0.1462.46, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bea9caf9291d2ff37b803aeb35f49abc
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at com.test.testng.IntegrationWithTestNG.OrangeHRM(IntegrationWithTestNG.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrangeHRM -->
+        <test-method is-config="true" signature="CheckStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.test.testng.IntegrationWithTestNG@55fe41ea]" started-at="2022-12-14T23:18:45 IST" name="CheckStatus" finished-at="2022-12-14T23:18:45 IST" duration-ms="183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.testng.IntegrationWithTestNG.OrangeHRM() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=OrangeHRM status=FAILURE method=IntegrationWithTestNG.OrangeHRM()[pri:0, instance:com.test.testng.IntegrationWithTestNG@55fe41ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckStatus -->
+        <test-method is-config="true" signature="ScreenshotCapture(org.testng.ITestResult)[pri:0, instance:com.test.testng.IntegrationWithTestNG@55fe41ea]" started-at="2022-12-14T23:18:45 IST" name="ScreenshotCapture" finished-at="2022-12-14T23:18:46 IST" duration-ms="576" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrangeHRM status=FAILURE method=IntegrationWithTestNG.OrangeHRM()[pri:0, instance:com.test.testng.IntegrationWithTestNG@55fe41ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotCapture -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.test.testng.IntegrationWithTestNG@55fe41ea]" started-at="2022-12-14T23:18:46 IST" name="teardown" finished-at="2022-12-14T23:18:46 IST" duration-ms="765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="GenerateExtentReports()[pri:0, instance:com.test.testng.IntegrationWithTestNG@55fe41ea]" started-at="2022-12-14T23:18:47 IST" name="GenerateExtentReports" finished-at="2022-12-14T23:18:49 IST" duration-ms="2238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GenerateExtentReports -->
+      </class> <!-- com.test.testng.IntegrationWithTestNG -->
+    </test> <!-- Test OrangeHRM  -->
+  </suite> <!-- Suite -->
+</testng-results>
