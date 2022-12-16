@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test FaceBook(failed)">
+    <parameter name="author" value="Kumar"/>
+    <parameter name="browserName" value="Edge"/>
+    <classes>
+      <class name="com.test.extentreport.ExtentReportIntegration">
+        <methods>
+          <include name="CheckStatus"/>
+          <include name="teardown"/>
+          <include name="SetUp"/>
+          <include name="TestFaceBook"/>
+          <include name="GenerateExtentReports"/>
+          <include name="InitializeExtentReports"/>
+          <include name="ScreenshotCapture"/>
+        </methods>
+      </class> <!-- com.test.extentreport.ExtentReportIntegration -->
+    </classes>
+  </test> <!-- Test FaceBook(failed) -->
+  <test thread-count="5" name="Test OrangeHRM (failed)">
+    <parameter name="author" value="Abbs"/>
+    <parameter name="browserName" value="Edge"/>
+    <classes>
+      <class name="com.test.extentreport.ExtentReportIntegration">
+        <methods>
+          <include name="CheckStatus"/>
+          <include name="teardown"/>
+          <include name="OrangeHRM"/>
+          <include name="SetUp"/>
+          <include name="GenerateExtentReports"/>
+          <include name="InitializeExtentReports"/>
+          <include name="ScreenshotCapture"/>
+        </methods>
+      </class> <!-- com.test.extentreport.ExtentReportIntegration -->
+    </classes>
+  </test> <!-- Test OrangeHRM (failed) -->
+</suite> <!-- Failed suite [Suite] -->

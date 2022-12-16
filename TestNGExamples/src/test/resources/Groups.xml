@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+<run>
+<include name="window.*"/>
+</run>
+</groups>
+  <test thread-count="5" name="Test1">
+<!--groups>
+define name="dailyBuild">
+<include name="smoke"/>
+<include name="sanity"/>
+<include name="functional"/>
+</define>
+<define name="weeklyBuild">
+<include name="smoke"/>
+<include name="sanity"/>
+<include name="functional"/>
+<include name="regression"/>
+</define>
+<run>
+<include name="dailyBuild"/>
+<exclude name="functional"/>
+</run>
+</groups>-->
+<!--<groups>
+<run>
+<include name="sanity"/>
+</run>
+</groups>-->
+    <classes>
+          <class name="com.test.groups.GroupsAnnotation1"/>
+    </classes>
+  </test> 
+<test name="Test2">
+<!--<groups>
+<run>
+<include name="regression"/>
+</run>
+</groups>-->
+<classes>
+  <class name="com.test.groups.GrupsAnnotation2"/>
+    </classes>
+  </test> 
+</suite> 
