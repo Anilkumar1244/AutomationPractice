@@ -6,10 +6,12 @@ Feature: Check Home Page Fuctionality
   And clicks on login button
   Then user is navigated to home page
   
+  @smoke @regression 
   Scenario: Checkout logout link
   When user clicks on welcome link
   Then logout link is displayed
   
+  @sanity @functional @important
   Scenario: Verify quick launchtoolbar is present
   When user clicks on dashboard link
   Then quick launch toolbar is dispalyed
